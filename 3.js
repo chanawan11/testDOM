@@ -5,7 +5,7 @@ function loadXMLDoc() {
         myFunction(this);
       }
     };
-    xmlhttp.open("GET", "cd_cat.xml", true);
+    xmlhttp.open("GET", "1.xml", true);
     xmlhttp.send();
 }
 
@@ -21,3 +21,4 @@ function myFunction(xml) {
     }
     document.getElementById("demo").innerHTML = txt;
 }
+
